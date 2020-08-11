@@ -14,6 +14,7 @@ class GraphNode
 private:
     //// STUDENT CODE
     ////
+    // TODO Task4: 
 
     // data handles (owned)
     std::vector<GraphEdge *> _childEdges;  // edges to subsequent nodes
@@ -48,6 +49,7 @@ public:
 
     //// STUDENT CODE
     ////
+    // TODO Task4: 
 
     void MoveChatbotHere(ChatBot *chatbot);
 

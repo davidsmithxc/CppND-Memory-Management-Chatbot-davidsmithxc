@@ -32,6 +32,7 @@ ChatBot::ChatBot(std::string filename)
 
 ChatBot::~ChatBot()
 {
+    // TODO Task0: The memory management warm up problem seems to cause a crash starting here.
     std::cout << "ChatBot Destructor" << std::endl;
 
     // deallocate heap memory
@@ -44,7 +45,8 @@ ChatBot::~ChatBot()
 
 //// STUDENT CODE
 ////
-
+// TODO Task2: Update ChatBot to conform to rule of 5
+// TODO Task2: Print a string of the type "ChatBot Copy Construction" to the console for debugging
 ////
 //// EOF STUDENT CODE
 

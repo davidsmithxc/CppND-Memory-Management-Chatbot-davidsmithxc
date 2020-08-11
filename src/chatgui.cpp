@@ -116,6 +116,7 @@ ChatBotPanelDialog::ChatBotPanelDialog(wxWindow *parent, wxWindowID id)
 
     //// STUDENT CODE
     ////
+    // TODO Task1: replace raw ptr with smart ptr
 
     // create chat logic instance
     _chatLogic = new ChatLogic(); 
@@ -134,6 +135,7 @@ ChatBotPanelDialog::~ChatBotPanelDialog()
 {
     //// STUDENT CODE
     ////
+    // TODO: 
 
     delete _chatLogic;
 

@@ -16,6 +16,7 @@ ChatLogic::ChatLogic()
 {
     //// STUDENT CODE
     ////
+    // TODO Task3: 
 
     // create instance of chatbot
     _chatBot = new ChatBot("../images/chatbot.png");
@@ -31,6 +32,7 @@ ChatLogic::~ChatLogic()
 {
     //// STUDENT CODE
     ////
+    // TODO Task 3: 
 
     // delete chatbot instance
     delete _chatBot;
@@ -125,6 +127,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
                     {
                         //// STUDENT CODE
                         ////
+                        // TODO Task 3: 
 
                         // check if node with this ID exists already
                         auto newNode = std::find_if(_nodes.begin(), _nodes.end(), [&id](GraphNode *node) { return node->GetID() == id; });
@@ -148,6 +151,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
                     {
                         //// STUDENT CODE
                         ////
+                        // TODO Task 3: 
 
                         // find tokens for incoming (parent) and outgoing (child) node
                         auto parentToken = std::find_if(tokens.begin(), tokens.end(), [](const std::pair<std::string, std::string> &pair) { return pair.first == "PARENT"; });
@@ -195,6 +199,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
 
     //// STUDENT CODE
     ////
+    // TODO Task3: 
 
     // identify root node
     GraphNode *rootNode = nullptr;
