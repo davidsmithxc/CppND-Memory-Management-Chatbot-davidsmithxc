@@ -136,7 +136,8 @@ ChatBotPanelDialog::~ChatBotPanelDialog()
 {
     //// STUDENT CODE
     ////
-    // TODO Task1: This delete shouldn't be needed when using a smart pointer. 
+    // DONE Task1: This delete shouldn't be needed when using a smart pointer.
+    // TODO Final clean up: Is there anything else that the destructor needs to release since we're using a smart pointer?
 
     // delete _chatLogic;
 
