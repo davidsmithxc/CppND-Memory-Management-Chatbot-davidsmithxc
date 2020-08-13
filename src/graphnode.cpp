@@ -1,5 +1,6 @@
 #include "graphedge.h"
 #include "graphnode.h"
+#include <iostream>
 
 GraphNode::GraphNode(int id)
 {
@@ -12,7 +13,8 @@ GraphNode::~GraphNode()
     ////
     // TODO Task4: 
 
-    delete _chatBot; 
+    // delete _chatBot; -> This delete is not needed after completing Task 1.
+    // The chat gui is the exclusive owner. Something else should go here.
 
     ////
     //// EOF STUDENT CODE

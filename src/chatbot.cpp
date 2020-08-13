@@ -27,12 +27,13 @@ ChatBot::ChatBot(std::string filename)
     _rootNode = nullptr;
 
     // load image into heap memory
+    std::cout << "Image filename " << filename << std::endl;
     _image = new wxBitmap(filename, wxBITMAP_TYPE_PNG);
 }
 
 ChatBot::~ChatBot()
 {
-    // TODO Task0: The memory management warm up problem seems to cause a crash starting here.
+
     std::cout << "ChatBot Destructor" << std::endl;
 
     // deallocate heap memory
