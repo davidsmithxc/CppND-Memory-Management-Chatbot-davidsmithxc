@@ -65,6 +65,8 @@ vector
 -
 string
 -
+memory
+-
 chatbot.h
 /home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/chatbot.h
 
