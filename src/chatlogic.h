@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <string>
+#include <memory>
 #include "chatgui.h"
 
 // forward declarations
@@ -15,12 +16,12 @@ class ChatLogic
 private:
     //// STUDENT CODE
     ////
-    // TODO Task3: Use smart pointers to adapt the _nodes vector
+    // DONE Task3: Use smart pointers to adapt the _nodes vector
     //             in such a way that the GraphNodes are exclusively
     //             owned by ChatLogic... make sure to review instructions!
 
     // data handles (owned)
-    std::vector<GraphNode *> _nodes;
+    std::vector<std::unique_ptr<GraphNode>> _nodes;
     std::vector<GraphEdge *> _edges;
 
     ////

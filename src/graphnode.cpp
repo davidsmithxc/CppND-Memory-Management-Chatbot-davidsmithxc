@@ -1,6 +1,7 @@
 #include "graphedge.h"
 #include "graphnode.h"
 #include <iostream>
+#include <memory>
 
 GraphNode::GraphNode(int id)
 {
