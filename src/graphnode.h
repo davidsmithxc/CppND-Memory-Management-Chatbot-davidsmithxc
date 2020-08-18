@@ -15,14 +15,14 @@ class GraphNode
 private:
     //// STUDENT CODE
     ////
-    // TODO Task4: 
+    // DONE Task4: use smart pointers
 
     // data handles (owned)
     std::vector<std::unique_ptr<GraphEdge>> _childEdges;  // edges to subsequent nodes
 
     // data handles (not owned)
     std::vector<GraphEdge *> _parentEdges; // edges to preceding nodes 
-    ChatBot *_chatBot;
+    ChatBot _chatBot;
 
     ////
     //// EOF STUDENT CODE
@@ -50,9 +50,9 @@ public:
 
     //// STUDENT CODE
     ////
-    // TODO Task4: 
+    // DONE Task5: use move sematics
 
-    void MoveChatbotHere(ChatBot *chatbot);
+    void MoveChatbotHere(ChatBot chatbot);
 
     ////
     //// EOF STUDENT CODE

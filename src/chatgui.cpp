@@ -117,7 +117,7 @@ ChatBotPanelDialog::ChatBotPanelDialog(wxWindow *parent, wxWindowID id)
 
     //// STUDENT CODE
     ////
-    // TODO Task1: replace raw ptr with smart ptr
+    // DONE Task1: replace raw ptr with smart ptr
 
     // create chat logic instance
     _chatLogic = std::make_unique<ChatLogic>(); 
@@ -137,7 +137,7 @@ ChatBotPanelDialog::~ChatBotPanelDialog()
     //// STUDENT CODE
     ////
     // DONE Task1: This delete shouldn't be needed when using a smart pointer.
-    // TODO Final clean up: Is there anything else that the destructor needs to release since we're using a smart pointer?
+    // DONE Final clean up: Is there anything else that the destructor needs to release since we're using a smart pointer?
 
     // delete _chatLogic;
 

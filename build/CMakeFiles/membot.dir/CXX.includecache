@@ -6,11 +6,47 @@
 
 #IncludeRegexTransform: 
 
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/chatbot.cpp
+iostream
+-
+random
+-
+algorithm
+-
+ctime
+-
+chatlogic.h
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/chatlogic.h
+graphnode.h
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphnode.h
+graphedge.h
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphedge.h
+chatbot.h
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/chatbot.h
+
 /home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/chatbot.h
 wx/bitmap.h
 -
 string
 -
+
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/chatgui.cpp
+wx/filename.h
+-
+wx/colour.h
+-
+wx/image.h
+-
+string
+-
+memory
+-
+chatbot.h
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/chatbot.h
+chatlogic.h
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/chatlogic.h
+chatgui.h
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/chatgui.h
 
 /home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/chatgui.h
 wx/wx.h
@@ -54,10 +90,26 @@ memory
 chatgui.h
 /home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/chatgui.h
 
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphedge.cpp
+graphnode.h
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphnode.h
+graphedge.h
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphedge.h
+
 /home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphedge.h
 vector
 -
 string
+-
+
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphnode.cpp
+graphedge.h
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphedge.h
+graphnode.h
+/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphnode.h
+iostream
+-
+memory
 -
 
 /home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphnode.h

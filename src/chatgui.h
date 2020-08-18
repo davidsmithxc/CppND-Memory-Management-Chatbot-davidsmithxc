@@ -16,8 +16,8 @@ private:
 
     //// STUDENT CODE
     ////
-    // TODO Task1: Replace raw ptr with smart ptr.
-    // TODO: Make chatlogic an exclusive resource to ChatbotPanelDialog
+    // DONE Task1: Replace raw ptr with smart ptr.
+    // DONE: Make chatlogic an exclusive resource to ChatbotPanelDialog
 
     // ChatLogic *_chatLogic;
     std::unique_ptr<ChatLogic> _chatLogic;
