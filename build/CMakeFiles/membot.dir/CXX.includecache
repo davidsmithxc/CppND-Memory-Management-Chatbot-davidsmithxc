@@ -90,26 +90,10 @@ memory
 chatgui.h
 /home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/chatgui.h
 
-/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphedge.cpp
-graphnode.h
-/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphnode.h
-graphedge.h
-/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphedge.h
-
 /home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphedge.h
 vector
 -
 string
--
-
-/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphnode.cpp
-graphedge.h
-/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphedge.h
-graphnode.h
-/home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphnode.h
-iostream
--
-memory
 -
 
 /home/david/Projects/Udacity-ND-CPP/CppND-Memory-Management-Chatbot/src/graphnode.h
